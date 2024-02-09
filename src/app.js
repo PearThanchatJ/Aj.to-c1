@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
 
 app.get('/test', (req, res) => {
     const id = req.query.id;
-
-    const output = `id: ${id}`;
+    const name = req.query.name;
+    const output = `id: ${id} and name: ${name}`;
     res.send(output);
 });
 
