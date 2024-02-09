@@ -12,7 +12,7 @@ app.get('/test', (req, res) => {
     res.send(output);
 });
 
-//start server
+//start server 3000
 app.listen(3000, () => {
     console.log('server is listening on port 3000');
 });
